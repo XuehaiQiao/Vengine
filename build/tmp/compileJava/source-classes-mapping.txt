@@ -1,18 +1,24 @@
-com/myEngine/Launcher.java
- com.myEngine.Launcher
+com/myEngine/core/EngineManager.java
+ com.myEngine.core.EngineManager
 com/myEngine/core/WindowManager.java
  com.myEngine.core.WindowManager
-com/myEngine/test/TestGame.java
- com.myEngine.test.TestGame
+com/myEngine/core/ILogic.java
+ com.myEngine.core.ILogic
 jade/Window.java
  jade.Window
 jade/Main.java
  jade.Main
 com/myEngine/core/utils/Consts.java
  com.myEngine.core.utils.Consts
-com/myEngine/core/ILogic.java
- com.myEngine.core.ILogic
+com/myEngine/core/entity/Model.java
+ com.myEngine.core.entity.Model
+com/myEngine/Launcher.java
+ com.myEngine.Launcher
+com/myEngine/test/TestGame.java
+ com.myEngine.test.TestGame
+com/myEngine/core/ObjectLoader.java
+ com.myEngine.core.ObjectLoader
+com/myEngine/core/utils/Utils.java
+ com.myEngine.core.utils.Utils
 com/myEngine/core/RenderManager.java
  com.myEngine.core.RenderManager
-com/myEngine/core/EngineManager.java
- com.myEngine.core.EngineManager

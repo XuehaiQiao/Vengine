@@ -20,6 +20,8 @@ public class ObjectLoader {
     public Model loadModel(float[] vertices) {
         int id = createVAD();
         storeDataInAttribList(0, 3, vertices);
+        unbind();
+        return new Model(id, vertices.length / 3);
     }
 
     private int createVAD() {
@@ -40,10 +42,10 @@ public class ObjectLoader {
     }
 
     private void unbind() {
-
+        GL30.glBindVertexArray(0);
     }
 
-    private void cleanup() {
+    public void cleanup() {
         for (int vao : vaos) {
             GL30.glDeleteVertexArrays(vao);
         }
