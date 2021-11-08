@@ -1,0 +1,18 @@
+com/myEngine/Launcher.java
+ com.myEngine.Launcher
+com/myEngine/core/WindowManager.java
+ com.myEngine.core.WindowManager
+com/myEngine/test/TestGame.java
+ com.myEngine.test.TestGame
+jade/Window.java
+ jade.Window
+jade/Main.java
+ jade.Main
+com/myEngine/core/utils/Consts.java
+ com.myEngine.core.utils.Consts
+com/myEngine/core/ILogic.java
+ com.myEngine.core.ILogic
+com/myEngine/core/RenderManager.java
+ com.myEngine.core.RenderManager
+com/myEngine/core/EngineManager.java
+ com.myEngine.core.EngineManager
